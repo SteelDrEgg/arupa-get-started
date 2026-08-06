@@ -1,0 +1,6 @@
+Name: get-started
+Version: dev
+Type: wasm
+ContractVersion: 2
+Command: $PLUGIN_ROOT/get-started.wasm
+DisplayName: Get Started

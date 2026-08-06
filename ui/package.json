@@ -1,0 +1,15 @@
+{
+  "name": "@arupa/get-started",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "npm run locale:compile && vite build",
+    "check": "npm run locale:compile && svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "locale:compile": "node ./scripts/compile-locale.mjs",
+    "dev": "vite dev"
+  },
+  "devDependencies": {
+    "@inlang/paraglide-js": "^2.23.0"
+  }
+}
