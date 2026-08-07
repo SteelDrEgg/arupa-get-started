@@ -10,8 +10,10 @@ in terms of security.
 This template uses `Svelte` + `Paraglide.js` for frontend, but practically you can use any
 tech stack you familiar with.
 
+## Service info
 ```text
 Name: get-started
+Type: wasm
 ```
 
 ## HTTP API
