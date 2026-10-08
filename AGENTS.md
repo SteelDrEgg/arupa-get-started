@@ -2,7 +2,7 @@
 
 This repo is a **template** for building [Arupa](https://github.com/SteelDrEgg/Arupa) services.
 Before writing any code, fetch https://docs.arupa.dev/llms.txt and read the pages relevant to
-your task (routing, transports, packaging, styling, conventions). This file tells you how to
+your task (access control, routing, transports, packaging, styling, conventions). This file tells you how to
 build on the template and which traps to avoid — the docs are the source of truth.
 
 Target layout (create what's missing as you build):
@@ -162,3 +162,5 @@ Pitfalls:
 `README.md` is for end users: what the service does, the exposed HTTP endpoints (so users can
 reason about security), and the `[Services.<name>.Params]` config keys. Keep internals (KV,
 ISC, protocol details) out of it. Update it whenever endpoints or params change.
+
+Create a separate `DEVELOPMENT.md` or `DETAIL.md` to put extra details.
